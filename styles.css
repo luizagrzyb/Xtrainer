@@ -1,0 +1,142 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FAFAFA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .navbar-brand .logo {
+    max-width: 100px;
+}
+
+header .navbar-nav .nav-item .nav-link {
+    color: #28292B;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+header .navbar-nav .nav-item .btn-contact {
+    background-color: #28292B;
+    color: #FAFAFA;
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #C9BFA4;
+    }
+
+header .navbar-nav .nav-item .btn-contact:hover {
+    color: #FAFAFA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #1a1b1d; 
+}
+
+ .navbar-brand img {
+    width: 100px; /* Aumente este valor para 2x do tamanho original */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px;
+}
+
+
+section {
+    padding: 60px 0;
+}
+section h2 {
+    color: #C9BFA4;
+    font-weight: bold;
+}
+section p {
+    color: #5A5A5A;
+}
+.carousel-item {
+    text-align: center;
+}
+.carousel-item h5 {
+    color: #28292B;
+}
+.carousel-item p {
+    color: #6c757d;
+}
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #28292B;
+    font-family: 'Public Sans', sans-serif;
+    color: #FAFAFA;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.social-icons {
+    text-align: center; /* Centraliza os ícones */
+}
+
+.social-icons a {
+    color: #FAFAFA;
+    font-size: 20px; 
+    margin: 0 20px;
+    transition: color 0.3s ease;
+    position: relative;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+
+.social-icons a:hover {
+    color: #d6d6d6; 
+    text-decoration: none; /* Remove underline on hover */
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 28.5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+    
+    .social-icons {
+        padding: 3px 12px;
+    }
+    .copyright {
+        font-size: 12px; /* Diminui o tamanho do texto de copyright em telas pequenas */
+    }
+    }
+    
+    .copyright {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 8px;
+        color: #FAFAFA;
+        font-family: 'Public Sans', sans-serif; /* Garantir que o texto de copyright use a fonte Public Sans */
+    }
+    html {
+        scroll-behavior: smooth;
+    }
