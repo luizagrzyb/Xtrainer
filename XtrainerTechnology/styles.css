@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+header, footer {
+    background-color: #28292B;
+    color: white;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+section {
+    padding: 60px 0;
+}
+section h2 {
+    color: #C9BFA4;
+    font-weight: bold;
+}
+section p {
+    color: #5A5A5A;
+}
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+}
+footer h3 {
+    color: #C9BFA4;
+}
+.container {
+    max-width: 960px;
+}
+.carouselslide {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+    height: 500px; /* Ajuste a altura conforme necessário */
+}
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background: #bb9f75;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+.swiper-slide:hover {
+    transform: scale(1.05);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%; /* Ajusta a altura do card para 100% do pai */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card-img-top {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; /* Faz o card-body ocupar o espaço disponível */
+}
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card-text {
+    font-size: 1rem;
+}
+.card-description {
+    max-width: 250px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
